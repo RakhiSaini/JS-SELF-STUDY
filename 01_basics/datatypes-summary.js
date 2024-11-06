@@ -41,3 +41,14 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ========================================================================
+
+//  stack and heap memory :-
+
+// stack(primitive)         and          heap(non-primitive)
+//      |                                           |
+// call by value                           call by reference
+// (only copy hoti hai value)          (original value b change hogi)
+        
